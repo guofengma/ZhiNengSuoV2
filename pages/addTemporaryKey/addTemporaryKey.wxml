@@ -1,0 +1,5 @@
+<view class="content">
+  <input class='box-input mb20' placeholder='请输入临时密匙名称'></input>
+  <input class='box-input mb50' placeholder='请输入数字管理密码'></input>  
+  <button class='btn blue-btn'>分享好友</button>
+</view>

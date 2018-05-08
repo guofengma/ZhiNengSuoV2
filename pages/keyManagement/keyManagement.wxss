@@ -1,0 +1,101 @@
+
+page{
+	background: #f0f0f0;
+}
+
+.list-box{
+	
+}
+
+.l-item{
+	background: #fff;
+	height: 105rpx;
+	border-bottom: 1px solid #e7e7e7;
+	display: flex;
+	align-items: center;
+	padding: 0 30rpx;
+	justify-content: space-between;
+}
+
+.right{
+	width: 34rpx;
+}
+
+.mange-handle-box{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 98rpx;
+	display: flex;
+}
+.man-item{
+	height: 98rpx;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tb-box{
+	background: #fff;
+	color: #3398ff;
+}
+
+.add-box{
+	background: #3398ff;
+	color: #fff;
+}
+
+.man-icon{
+	width: 40rpx;
+	margin-right: 14rpx;
+}
+
+/*添加密钥名称*/
+.shade-box{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	background: rgba(0,0,0,0.6);
+	padding-top: 364rpx;
+}
+
+.addmy-box{
+	background: #fff;
+	margin: 0 20rpx;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.add-tit{
+	height: 120rpx;
+	line-height: 120rpx;
+	text-align: center;
+}
+
+.add-input{
+	width: calc(100%-60rpx);
+	height:96rpx;
+	border: 1px solid #d7d7d7;
+	border-radius: 10rpx;
+	padding-left: 20rpx;
+}
+.add-handle-box{
+	display: flex;
+}
+.add-handle-btn{
+	width: 50%;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+}
+.cancel{
+	color: #8a8a8a;
+}
+.next{
+	color: #3398ff;
+}

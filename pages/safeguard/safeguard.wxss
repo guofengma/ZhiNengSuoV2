@@ -1,0 +1,56 @@
+page{
+	background: #f1f1f1;
+}
+.list-box{
+
+}
+
+.lits-item{
+	padding: 0 20rpx;
+	margin-bottom: 20rpx;
+	background: #fff;
+}
+
+.s-name-box{
+	height: 122rpx;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.s-name{
+	font-size: 32rpx;
+	margin-bottom: 20rpx;
+}
+
+.s-user{
+
+}
+
+.s-phone{
+	margin-right: 25rpx;
+}
+
+.s-phone-icon{
+	width: 34rpx;
+}
+
+.dw-icon{
+	width: 30rpx;
+}
+
+.addr-box{
+	display: flex;
+	align-items: center;
+	height: 77rpx;
+}
+
+.goTo-box{
+	display: flex;
+	align-items: center;
+	color: #3398ff;
+}
+.addr{
+	margin-right: 25rpx;
+}

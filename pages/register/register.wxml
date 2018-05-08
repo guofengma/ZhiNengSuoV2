@@ -1,0 +1,19 @@
+<view class="sign-box">
+  <view class='sign-tit'>注册</view>
+  <view class='sign-form-box'>
+    <text class='sign-label'>手机号</text>
+    <input class='sign-input' placeholder='请输入手机号'></input>
+    <text class='blue yzm-btn'>获取验证码</text>
+  </view>
+  <view class='sign-form-box mb60'>
+    <text class='sign-label'>验证码</text>
+    <input class='sign-input' placeholder='请输入验证码'></input>
+  </view>
+  <view class='sign-btn-box'>
+    <button class='btn sign-btn blue-btn'>登录</button>
+  </view>
+  <view class='sign-link tc'>
+    <text class=''>已有账号，</text>
+    <text class='blue' bindtap='loLink'>立即登录</text>
+  </view>
+</view>

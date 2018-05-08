@@ -1,0 +1,14 @@
+<view class="entering-box">
+  <view class='entering-tit'>录入中</view>
+  <progress percent="20" show-info />
+</view>
+<view class='entering-res entering-success'>
+  <icon type="success" size="24"/>
+  <view class='enter-hint'>录入成功</view>
+  <button class='entering-btn success-btn'>完成</button>
+</view>
+<view class='entering-res entering-fail'>
+  <icon type="warn" size="24"/>
+  <view class='enter-hint'>录入失败</view>
+  <button class='entering-btn success-btn'>确认</button>  
+</view>

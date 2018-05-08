@@ -1,0 +1,18 @@
+<view class="list-box">
+  <view class='lits-item' wx:for="{{5}}">
+    <view class='s-name-box'>
+      <view class='s-name'>王世伟</view>    
+      <view class='s-user center-flex'>
+        <text class='s-phone'>15678045673</text>
+        <image class='s-phone-icon' mode='widthFix' src='/images/phone.png'></image>
+      </view>
+    </view>
+    <view class='addr-box'>
+      <text class='addr'>广州市天河区东圃镇东圃二马路</text>
+      <view class='goTo-box'>
+        <image class='dw-icon' mode='widthFix' src="/images/dw-01.png"></image>
+        到这去
+      </view>
+    </view>
+  </view>
+</view>

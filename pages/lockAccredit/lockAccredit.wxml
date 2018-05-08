@@ -1,0 +1,7 @@
+<view class="content">
+  <input class='box-input mb20' placeholder='请输入被授权者账号(注册的手机号)'></input>
+  <input class='box-input mb20' placeholder='请输入被授权者姓名'></input>  
+  <input class='box-input mb20' placeholder='请输入管理密码'></input>  
+  <button class='btn blue-btn mb20'>确认授权</button>
+  <button class='btn white-btn'>被授权者列表</button>
+</view>

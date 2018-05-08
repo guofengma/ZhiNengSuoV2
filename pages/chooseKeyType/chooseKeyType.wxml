@@ -1,0 +1,14 @@
+<view class="list-box">
+  <view class='list-item'>
+    <image class='item-icon' mode='widthFix' src='/images/glmy.png'></image>
+    管理密钥
+  </view>
+  <view class='list-item'>
+    <image class='item-icon' mode='widthFix' src='/images/ptmy.png'></image>
+    普通密钥
+  </view>
+  <view class='list-item'>
+    <image class='item-icon' mode='widthFix' src='/images/fjcmy.png'></image>
+    防劫持密钥
+  </view>
+</view>

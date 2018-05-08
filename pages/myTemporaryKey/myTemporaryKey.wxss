@@ -1,0 +1,36 @@
+.list-box{
+	border-top: 1px solid #e7e7e8;
+}
+
+.k-item{
+	display: flex;
+	flex-flow: column;
+	padding: 0 30rpx;
+	height: 150rpx;
+	border-bottom: 1px solid #e7e7e8;
+	position: relative;
+	justify-content: center;
+}
+
+.u-name{
+	font-size: 34rpx;
+	margin-bottom: 20rpx;
+}
+
+.k-time{
+	color: #666;
+}
+
+.k-state{
+	position: absolute;
+	right: 30rpx;
+	top: 30rpx;
+}
+
+.k-wsy{
+	color: #3398ff;
+}
+
+.k-ysy{
+	color: #bbbbbc;
+}

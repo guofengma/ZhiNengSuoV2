@@ -1,0 +1,13 @@
+<view class="list-box">
+  <view class='list-item' wx:for="{{4}}">
+    <view class='item-user center-flex'>
+      <text class='item-user-name'>领扥发的</text>
+      <image class='write-icon' mode='widthFix' src='/images/xg.png'></image>
+    </view>
+    <view class='item-con center-flex'>
+      <view class='user-phone'>15678045718</view>
+      |
+      <view class='s-name'>广州的家</view>
+    </view>
+  </view>
+</view>

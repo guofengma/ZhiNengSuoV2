@@ -1,0 +1,12 @@
+<view class="list-box">
+  <view class='k-item'>
+    <view class='u-name'>林峰</view>
+    <view class='k-time'>2018-04-03 16:00</view>
+    <view class='k-state k-wsy'>未使用</view>
+  </view>
+  <view class='k-item' wx:for="{{5}}">
+    <view class='u-name'>林峰</view>
+    <view class='k-time'>2018-04-03 16:00</view>
+    <view class='k-state k-ysy'>已使用</view>
+  </view>
+</view>

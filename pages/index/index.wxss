@@ -1,0 +1,273 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+.page1{
+	height: 100%;
+	position: relative;
+}
+.page-bg{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	/*height: 100%;*/
+	z-index: -1;
+}
+
+.lock-top{
+	color: #fff;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	position: relative;
+	height: 144rpx;
+	justify-content: space-around;
+	padding: 20rpx;
+	box-sizing: border-box;
+}
+.lock-name{
+	font-size: 32rpx;
+}
+
+.rename-btn{
+	width: 34rpx;
+	position: absolute;
+	right: 20rpx;
+	top: 30rpx;
+}
+
+/* 分类 */
+.lock-handle-box{
+	width: 650rpx;
+	margin: 0 50rpx;
+	background: #fff;
+	height: 150rpx;
+	border-radius: 10rpx;
+	justify-content: space-around;
+}
+.lock-handle-item{
+	text-align: center;
+}
+.lock-handle-icon{
+	width: 44rpx;
+	height: 44rpx;
+	margin-bottom: 5rpx;
+}
+.lock-handle-name{
+	font-size: 24rpx;
+}
+
+.lock-img{
+	width: 264rpx;
+	margin: 66rpx auto;
+	margin-bottom: 44rpx;
+	display: block;
+}
+
+.model-name{
+	color: #fff;
+}
+
+.lock-info{
+	padding: 50rpx 0;
+}
+
+.lock-info-item{
+	align-items: center;
+}
+
+.lock-info-icon{
+	width: 30rpx;
+	margin-right: 10rpx;
+}
+
+.lock-info{
+	color: #fff;
+	justify-content: space-around;
+}
+
+.manage-btn{
+	margin: 0 50rpx;
+}
+
+/* 登录提示 */
+.shade-box{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	background: rgba(0,0,0,0.6);
+	padding-top: 364rpx;
+}
+.blur{
+	filter: blur(1px);   
+}
+.sign-hint-box{
+	width: 690rpx;
+	margin: 0 30rpx;
+	background: #fff;
+	border-radius: 10rpx;
+	padding-top: 20rpx;
+}
+
+.sign-hint-tit{
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 44rpx;
+}
+.sign-hint-con{
+	height: 90rpx;
+	line-height: 90rpx;
+	border-bottom: 1px solid #ebebea;
+}
+.sign-hint-btn-box{
+
+}
+.sign-hint-btn{
+	width: 50%;
+	height: 95rpx;
+	line-height: 95rpx;
+	text-align: center;
+	box-sizing: border-box;
+}
+.reg-btn{
+	border-right: 1px solid #ebebea;
+}
+
+
+/*<!--  未连接智能锁  智能锁记录  -->*/
+
+.nos-box{
+	padding-top: 200rpx;
+}
+
+.ds-img{
+	width: 444rpx;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 60rpx;
+}
+
+.nos-hint{
+	color: #bebebe;
+	margin-bottom: 50rpx;
+}
+
+
+.white-btn{
+	background: #fff;
+	margin:0 75rpx;
+	border: 1px solid #3398ff;
+	color: #3398ff;
+}
+
+
+.s-item{
+	height: 230rpx;
+	padding: 0 30rpx;
+	border-bottom: 1px solid #e4e4e5;
+}
+
+.ys-box{
+	margin-bottom: 30rpx;
+}
+.ys-img{
+	width: 132rpx;
+	margin-right: 40rpx;
+}
+.s-info{
+
+}
+
+.s-name{
+	font-size: 34rpx;
+	margin-bottom: 30rpx;
+}
+
+.s-state-box{
+	align-items: center;
+}
+
+.ly-icon{
+	width: 28rpx;
+	margin-right: 10rpx;
+}
+
+.ylj{
+	color: #1caaec;
+}
+
+/* 附近的蓝牙设备 */
+.sb-btit{
+	height: 110rpx;
+	line-height: 110rpx;
+	font-size: 40rpx;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.sb-box{
+	border-top: 1px solid #e5e5e6;
+}
+
+.sb-item{
+	padding: 0 30rpx;
+	display: flex;
+	align-items: center;
+	height: 108rpx;
+	border-bottom: 1px solid #e5e5e6;
+}
+
+/*  输入密码  */
+.shade-box1{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	background: rgba(0,0,0,0.6);
+	padding-top: 140rpx;
+	color: #fff;
+}
+.pwd-box{
+	text-align: center;
+}
+.pwd-item{
+	width: 30rpx;
+	height: 30rpx;
+	background: #fff;
+	border-radius: 50%;
+	margin: 0 20rpx;
+	display: inline-block;
+}
+
+.numeric-keyboard{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50rpx 0 50rpx 100rpx;
+	justify-content: space-around;
+}
+
+.numeric-item{
+	width: 130rpx;
+	height: 130rpx;
+	color: #fff;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin-right: 80rpx;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50rpx;
+	font-size: 44rpx;
+}
+.bg_blue{
+	color: #3398ff;
+	border: 1px solid #3398ff;
+	background: #fff;
+}

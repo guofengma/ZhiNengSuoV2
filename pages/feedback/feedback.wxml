@@ -1,0 +1,4 @@
+<textarea class="feedback-con" placeholder='请输入300字以内的意见反馈' bindinput='saveInput'></textarea>
+<view class='btn-box'>
+  <button class='btn blue-btn' bindtap='saveFeedback'>立即提交</button>
+</view>

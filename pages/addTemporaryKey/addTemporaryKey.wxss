@@ -1,0 +1,11 @@
+.content{
+	padding: 70rpx 30rpx;
+}
+
+.box-input{
+	height: 88rpx;
+	box-sizing: border-box;
+	border:1rpx solid #ebebec;
+	border-radius: 10rpx;
+	padding-left: 20rpx;
+}

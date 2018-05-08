@@ -1,0 +1,17 @@
+.list-box{
+
+}
+.list-item{
+	display: flex;
+	align-items: center;
+	padding: 0 30rpx;
+	font-size: 34rpx;
+	height: 150rpx;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.item-icon{
+	width: 75rpx;
+	margin-right: 30rpx;
+}

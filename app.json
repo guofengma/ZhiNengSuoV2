@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/entering/entering",
+    "pages/myLockAccredit/myLockAccredit",
+    "pages/keyManagement/keyManagement",
+    "pages/feedback/feedback",
+    "pages/chooseKeyType/chooseKeyType",
+    "pages/safeguard/safeguard",
+    "pages/myTemporaryKey/myTemporaryKey",
+    "pages/visitor/visitor",
+    "pages/lockAccredit/lockAccredit",
+    "pages/addTemporaryKey/addTemporaryKey",
+    "pages/logs/logs",
+    "pages/register/register",
+    "pages/setKey/setKey"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3398ff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  }
+}

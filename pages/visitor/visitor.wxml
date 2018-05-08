@@ -1,0 +1,13 @@
+<!--  未连接智能锁  智能锁记录  -->
+<view class='page1'>
+
+  <view class='nos-box'>
+    <image class='ds-img' mode='widthFix' src='/images/s-02.png'></image>
+    <view class='nos-hint tc'>使用步骤：打开蓝牙连接智能锁，点击立即开锁即可</view>
+    <button class='btn blue-btn'>立即开锁</button>
+    <button class='btn white-btn'>已开锁</button>
+  </view>
+
+  
+
+</view>
