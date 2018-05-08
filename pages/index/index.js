@@ -83,7 +83,7 @@ Page({
 
   //初始化成功的回调
   initSuccess:function(msg){
-    console.log("成功的回调",msg)
+    console.log("成功的回调11",msg)
   },
 
   //初始化失败的回调
