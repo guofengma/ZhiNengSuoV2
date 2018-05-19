@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/accredit/accredit",
+    "pages/lanYaList/lanYaList",
     "pages/index/index",
+    "pages/register/register",
+    "pages/accredit/accredit",
     "pages/myLsmy/myLsmy",
     "pages/myLock/myLock",
     "pages/my/my",
@@ -19,8 +21,7 @@
     "pages/visitor/visitor",
     "pages/lockAccredit/lockAccredit",
     "pages/addTemporaryKey/addTemporaryKey",
-    "pages/logs/logs",
-    "pages/register/register"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

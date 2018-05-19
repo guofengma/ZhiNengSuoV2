@@ -2,15 +2,19 @@
   <view class='sign-tit'>注册</view>
   <view class='sign-form-box'>
     <text class='sign-label'>手机号</text>
-    <input class='sign-input' placeholder='请输入手机号'></input>
-    <text class='blue yzm-btn'>获取验证码</text>
+    <input class='sign-input' data-name="phone" type='number' bindinput='saveInput' placeholder='请输入手机号'></input>
+    <text class='blue yzm-btn' bindtap='sendCode'>{{sendHint}}</text>
+  </view>
+  <view class='sign-form-box'>
+    <text class='sign-label'>验证码</text>
+    <input class='sign-input' data-name="code" bindinput='saveInput' placeholder='请输入验证码'></input>
   </view>
   <view class='sign-form-box mb60'>
-    <text class='sign-label'>验证码</text>
-    <input class='sign-input' placeholder='请输入验证码'></input>
+    <text class='sign-label'>密码</text>
+    <input class='sign-input' data-name="pwd" type='password' bindinput='saveInput' placeholder='请输入您的密码'></input>
   </view>
   <view class='sign-btn-box'>
-    <button class='btn sign-btn blue-btn'>登录</button>
+    <button class='btn sign-btn blue-btn'>注册</button>
   </view>
   <view class='sign-link tc'>
     <text class=''>已有账号，</text>

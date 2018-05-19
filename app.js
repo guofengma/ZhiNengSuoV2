@@ -1,4 +1,8 @@
 //app.js
+import cyurl from "/utils/url";
+import cyutil from 'utils/util.js'
+
+//app.js
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -10,6 +14,9 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        console.log("res.code -->",res.code);
+        cyutil.getOpenId(res.code);
+
       }
     })
     // 获取用户信息

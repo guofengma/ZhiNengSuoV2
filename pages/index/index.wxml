@@ -41,7 +41,7 @@
   </view>
 </view>
 
-<!--  未连接智能锁  智能锁记录  -->
+<!--  未连接智能锁  智能锁列表  -->
 <view class='page1 none'>
 
   <view class='nos-box none'>

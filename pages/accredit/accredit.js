@@ -1,3 +1,6 @@
+import cyurl from "../../utils/url";
+import cyutil from "../../utils/util";
+
 // pages/accredit/accredit.js
 var app = getApp();
 Page({
@@ -10,9 +13,11 @@ Page({
   },
 
   getUserInfo: function (e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo;
-    wx.setStorageSync("userInfo", e.detail.userInfo)
+    console.log("getUserInfo -->",e)
+    let userInfo = e.detail.userInfo;
+    app.globalData.userInfo = userInfo;
+    wx.setStorageSync("userInfo", userInfo);
+    cyutil.saveMember();
     wx.switchTab({
       url: '/pages/index/index',
     })
@@ -41,11 +46,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    if (app.globalData.userInfo) {
-      wx.redirectTo({
-        url: '/pages/index/index',
-      })
-    }
+    // if (app.globalData.userInfo) {
+    //   wx.redirectTo({
+    //     url: '/pages/index/index',
+    //   })
+    // }
   },
 
   /**
