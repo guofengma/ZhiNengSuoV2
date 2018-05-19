@@ -1,0 +1,30 @@
+<!--  未连接智能锁  智能锁记录  -->
+<view class='page1'>
+
+  <view class='ys-box'>
+
+    <view class='s-item center-flex'>
+      <image class='ys-img' mode='widthFix' src='/images/s-02.png'></image>
+      <view class='s-info'>
+        <view class='s-name'>佛山的家</view>
+        <view class='s-state-box center-flex'>
+          <!-- <image class='ly-icon' mode='widthFix' src='/images/ly-02.png'></image> -->
+          <text class='s-state ylj'>ID：344645645534423423423432</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='s-item center-flex'>
+      <image class='ys-img' mode='widthFix' src='/images/s-02.png'></image>
+      <view class='s-info'>
+        <view class='s-name'>佛山的家</view>
+        <view class='s-state-box center-flex'>
+          <!-- <image class='ly-icon' mode='widthFix' src='/images/ly-02.png'></image> -->
+          <text class='s-state ylj'>ID：344645645534423423423432</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

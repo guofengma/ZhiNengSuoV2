@@ -1,0 +1,17 @@
+.line-box{
+	height: 210rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10rpx 30rpx;
+}
+
+.sname{
+	font-size: 34rpx;
+}
+
+.uname,.time{
+	color: #8a8a8a;
+}

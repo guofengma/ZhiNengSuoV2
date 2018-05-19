@@ -1,0 +1,60 @@
+<!-- 用户信息  -->
+<view class="user-box">
+  <image class='user-head' mode='widthFix' src='/images/glmy.png'></image>
+  <view class='user-name'>hanzx</view>
+</view>
+
+<!-- 栏目  -->
+
+<view class='line-box' bindtap='toLink' data-link='/pages/myLock/myLock'>
+  <image class='line-icon' mode='widthFix' src='/images/s.png'></image>
+  <view class='line-name'>我的智能锁</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>
+
+<!-- <view class='line-box'>
+  <image class='line-icon' mode='widthFix' src='/images/s.png'></image>
+  <view class='line-name'>我的密钥</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>   -->
+
+<view class='line-box' bindtap='toLink' data-link='/pages/myLsmy/myLsmy'>
+  <image class='line-icon' mode='widthFix' src='/images/wdlsmy.png'></image>
+  <view class='line-name'>我的临时密钥</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>
+
+<view class='line-box mb30' bindtap='toLink' data-link='/pages/myLockAccredit/myLockAccredit'>
+  <image class='line-icon' mode='widthFix' src='/images/znssq.png'></image>
+  <view class='line-name'>我的智能锁授权</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>       
+
+<view class='line-box'>
+  <image class='line-icon' mode='widthFix' src='/images/bz.png'></image>
+  <view class='line-name'>智能锁使用帮助</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>        
+<view class='line-box mb30'>
+  <image class='line-icon' mode='widthFix' src='/images/wh.png'></image>
+  <view class='line-name'>维护服务</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>  
+
+
+<view class='line-box' bindtap='toLink' data-link="/pages/feedback/feedback">
+  <image class='line-icon' mode='widthFix' src='/images/yjfk.png'></image>
+  <view class='line-name'>意见反馈</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>    
+<view class='line-box'>
+  <image class='line-icon' mode='widthFix' src='/images/kf.png'></image>
+  <view class='line-name'>客服</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+  <button open-type="contact" class='kf-btn'></button>
+</view>        
+<view class='line-box mb30'>
+  <image class='line-icon' mode='widthFix' src='/images/about.png'></image>
+  <view class='line-name'>关于我们</view>
+  <image class='right' mode='widthFix' src='/images/right.png'></image>
+</view>  

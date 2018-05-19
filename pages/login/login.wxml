@@ -9,7 +9,7 @@
     <input class='sign-input' type='password' placeholder='请输入密码'></input>
   </view>
   <view class='sign-btn-box'>
-    <button class='btn sign-btn blue-btn'>登录</button>
+    <button class='btn sign-btn blue-btn' bindtap='login'>登录</button>
   </view>
   <view class='sign-link tc'>
     <text class=''>未有账号，</text>

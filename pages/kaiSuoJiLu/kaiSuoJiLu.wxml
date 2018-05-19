@@ -1,0 +1,5 @@
+<view class="line-box" wx:for="{{list}}" wx:key="l">
+  <view class='sname'>{{item.sName}}</view>
+  <view class='uname'>{{item.uName}}</view>
+  <view class='time'>{{item.time}}</view>
+</view>

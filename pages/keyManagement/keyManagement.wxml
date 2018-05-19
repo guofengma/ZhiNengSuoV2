@@ -12,25 +12,27 @@
     <image class='right' mode='widthFix' src='/images/right.png'></image>
   </view>
 </view>
+
+
 <view class='mange-handle-box'>
-  <view class='man-item tb-box'>
+  <view class='man-item tb-box' bindtap='tongBuMiYue'>
     <image class='man-icon' mode='widthFix' src='/images/tongBu.png'></image>
     同步密钥
   </view>
-  <view class='man-item add-box'>
+  <view class='man-item add-box' bindtap='addMiYue'>
     <image class='man-icon' mode='widthFix' src='/images/add.png'></image>
     添加密钥
   </view>
 </view>
 
 <!-- 添加密钥名称  -->
-<view class='shade-box'>
+<view class='shade-box' wx:if="{{showSetName}}">
   <view class='addmy-box'>
     <view class='add-tit'>设置密钥名称</view>
-    <input class='add-input' placeholder='请输入密钥名称'></input>
+    <input class='add-input' placeholder='请输入密钥名称' bindinput='saveMiYueName' value="{{MiYueName}}"></input>
     <view class='add-handle-box'>
       <view class='cancel add-handle-btn'>取消</view>
-      <view class='next add-handle-btn'>下一步</view>
+      <view class='next add-handle-btn' bindtap='addMiYueNext'>下一步</view>
     </view>
   </view>
 </view>

@@ -1,3 +1,4 @@
+
 <view class="choose-type">
   <view class='choose-label'>选择密钥形式</view>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
@@ -7,38 +8,42 @@
   </picker>
   <image class='right' mode='widthFix' src='/images/right.png'></image>
 </view>
+
 <view class='set-tit'>设置约束条件（选填）</view>
 <view class='setSection'>
   <text class='set-label'>使用区间</text>
   <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
     <view class="picker">
-      {{time}}
+      {{time || "请选择时间"}}
     </view>
   </picker>
-  <text class=''>至</text>
+  <text class='set-label'>至</text>
   <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
     <view class="picker">
-      {{time}}
+     {{time || "请选择时间"}}
     </view>
   </picker>
 </view>
+
 <!-- 使用周期  -->
 <view class='syzq-box'>
   <view class='syzq-tit'>使用周期（可多选）</view>
   <view class='syzq-con'>
-    <view class='syzq-item' wx:for="{{syzq}}" wx:key="s">{{item.name}}</view>
+    <view class='syzq-item {{item.act == 1 ?"active":""}}' data-index='{{index}}' wx:for="{{syzq}}" wx:key="s" bindtap='bjItem'>{{item.name}}</view>
   </view>
 </view>
+
 <!-- 使用次数  -->
 <view class='sycs-box'>
   <view class='cs-label'>使用次数</view>
   <input class='cs-input' type='number' placeholder='请输入使用次数'></input>
 </view>
+
 <!-- 开锁记录上否上报  -->
 <view class='sb-box'>
    <checkbox-group bindchange="checkboxChange">
-    <label class="checkbox" wx:for="{{items}}">
-      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    <label class="checkbox-lab" wx:for="{{items}}" wx:key="i">
+      <checkbox class='checkbox' value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
     </label>
   </checkbox-group>
 </view>

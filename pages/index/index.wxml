@@ -1,17 +1,18 @@
 <view class="page1 ">
-  <image class='page-bg' mode='widthFix' src="/images/bg.png"></image>
+  <image class='page-bg' mode='' src="/images/bg.png"></image>
   <view class='lock-top tc'>
     <view class='lock-name'>{{lockName}}</view>
     <view class='lock-id'>ID：{{lockId}}</view>
     <image class='rename-btn' mode='widthFix' src='/images/write.png'></image>
   </view>
+
   <view class='lock-handle-box center-flex'>
-    <view class='lock-handle-item' wx:for="{{lockHandle}}" wx:key="k">
+    <view class='lock-handle-item' wx:for="{{lockHandle}}" wx:key="k" data-handle="{{item.handle}}" bindtap='lockHandle'>
       <image class='lock-handle-icon' mode='widthFix' src='{{item.image}}'></image>
       <view class='lock-handle-name'>{{item.name}}</view>
     </view>
-    
   </view>
+
   <image class='lock-img' mode='widthFix' src='/images/s-01.png'></image>
   <view class='model-name tc'>普通模式</view>
   <view class='lock-info center-flex'>
@@ -24,12 +25,12 @@
       <text class='lock-info-t'>智能锁蓝牙：已连接</text>
     </view>
   </view>
-  <button class='btn blue-btn manage-btn'>密钥管理</button>
+  <button class='btn blue-btn manage-btn' bindtap='tokeyManagement'>密钥管理</button>
 </view>
 
 
 <!--  登录提示  -->
-<view class='shade-box none'>
+<view class='shade-box' wx:if="{{!isLogin}}">
   <view class='sign-hint-box'>
     <view class='sign-hint-tit tc'>注册登录</view>
     <view class='sign-hint-con tc'>请注册登录，才能使用更多功能</view>

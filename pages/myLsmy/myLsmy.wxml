@@ -1,0 +1,15 @@
+<view class="line-box">
+  <view class='name-state'>
+    <view class='name'>王国胜</view>
+    <view class='state wsy'>未使用</view>
+  </view>
+  <view class='time'>2018-05-03 12:23:05</view>
+</view>
+
+<view class="line-box">
+  <view class='name-state'>
+    <view class='name'>王国胜</view>
+    <view class='state ysy'>已使用</view>
+  </view>
+  <view class='time'>2018-05-03 12:23:05</view>
+</view>

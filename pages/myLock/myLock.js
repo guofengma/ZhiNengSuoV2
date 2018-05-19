@@ -1,46 +1,11 @@
-// pages/lockAccredit/lockAccredit.js
+// pages/myLock/myLock.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    phone:"",
-    name:"",
-    pwd:"",
-  },
-
-  //保存输入
-  saveInput:function(e){
-    let name = e.currentTarget.dataset.name;
-    let value = e.detail.value;
-    let obj = {
-      [name]:value
-    }
-    this.setData(obj)
-    // console.log("obj",obj)
-  },
-
-  //授权
-  shouQuan:function(e){
-    let that = this;
-    let phone = that.data.phone;
-    let name = that.data.name;
-    let pwd = that.data.pwd;
-    if(phone == '' || phone == undefined || name== "" || name == undefined || pwd == '' || pwd == undefined){
-      wx.showToast({
-        icon:"none",
-        title: '请填写正确的信息',
-      })
-      return
-    }
-  },
-
-  //授权记录
-  toSqjl:function(e){
-    wx.navigateTo({
-      url: '/pages/myLockAccredit/myLockAccredit',
-    })
+  
   },
 
   /**

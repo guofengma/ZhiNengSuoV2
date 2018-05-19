@@ -8,6 +8,14 @@ Page({
   
   },
 
+  //登录
+  login:function(e){
+    wx.setStorageSync("isLogin", true);
+    wx.switchTab({
+      url: '/pages/index/index',
+    })
+  },
+
   //跳转注册
   loLink:function(e){
     wx.navigateTo({

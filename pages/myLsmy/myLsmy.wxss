@@ -1,0 +1,30 @@
+.line-box{
+	height: 150rpx;
+	display: flex;
+	box-sizing: border-box;
+	padding: 20rpx 30rpx;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.name-state{
+	display: flex;
+	justify-content: space-between;
+}
+
+.name{
+	font-size: 32rpx;
+}
+
+.wsy{
+	color: #3398ff;
+}
+
+.ysy{
+	color: #bbb;
+}
+
+.time{
+	color: #8a8a8a;
+}

@@ -8,6 +8,13 @@ Page({
   
   },
 
+  //跳转 设置密钥
+  toSetMiYue:function(e){
+    wx.navigateTo({
+      url: '/pages/setKey/setKey',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

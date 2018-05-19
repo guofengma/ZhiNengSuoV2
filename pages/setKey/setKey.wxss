@@ -1,1 +1,105 @@
-/* pages/setKey/setKey.wxss */
+
+page{
+  background: #f0f0f0;
+}
+
+.choose-type{
+	height: 100rpx;
+	padding: 0 30rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  background: #fff;
+}
+
+.right{
+	width: 34rpx;
+}
+
+.set-tit{
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	padding: 0 30rpx;
+	color: #8a8a8a;
+}
+
+.setSection{
+	display: flex;
+	align-items: center;
+	height: 100rpx;
+	padding: 0 30rpx;
+	background: #fff;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.set-label{
+	margin-right: 50rpx;
+}
+
+.setSection .picker{
+	margin-right: 40rpx;
+}
+
+.syzq-box{
+	background: #fff;
+	padding: 20rpx 30rpx;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.syzq-tit{
+	height: 40rpx;
+	line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.syzq-con{
+	display: flex;
+	flex-wrap: wrap;
+}
+.syzq-item{
+	width: 150rpx;
+	height: 56rpx;
+	margin-right: 20rpx;
+	margin-bottom: 24rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f0f0f0;
+	color: #8a8a8a;
+	border-radius: 10rpx;
+}
+
+.syzq-item.active{
+	background: #3398ff;
+	color: #fff;
+}
+
+.sycs-box{
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	padding: 0 30rpx;
+	background: #fff;
+}
+
+.cs-label{
+	width: 25%;
+}
+
+.cs-input{
+	flex: 1;
+}
+
+.sb-box{
+	height: 90rpx;
+	display: flex;
+	padding: 0 30rpx;
+	align-items: center;
+	margin-bottom: 100rpx;
+}
+
+.sb-box .checkbox{
+	margin-right: 10rpx;
+}

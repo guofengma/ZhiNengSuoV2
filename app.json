@@ -1,6 +1,13 @@
 {
   "pages": [
+    "pages/accredit/accredit",
     "pages/index/index",
+    "pages/myLsmy/myLsmy",
+    "pages/myLock/myLock",
+    "pages/my/my",
+    "pages/kaiSuoJiLu/kaiSuoJiLu",
+    "pages/baoJingJiLu/baoJingJiLu",
+    "pages/setKey/setKey",
     "pages/login/login",
     "pages/entering/entering",
     "pages/myLockAccredit/myLockAccredit",
@@ -13,13 +20,31 @@
     "pages/lockAccredit/lockAccredit",
     "pages/addTemporaryKey/addTemporaryKey",
     "pages/logs/logs",
-    "pages/register/register",
-    "pages/setKey/setKey"
+    "pages/register/register"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#3398ff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7f8289",
+    "selectedColor": "#3398ff",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home_00.png",
+        "selectedIconPath": "/images/home_01.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/my_00.png",
+        "selectedIconPath": "/images/my_01.png"
+      }
+    ]
   }
 }

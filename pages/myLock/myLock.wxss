@@ -1,0 +1,61 @@
+/*<!--  未连接智能锁  智能锁记录  -->*/
+
+.nos-box{
+	padding-top: 200rpx;
+}
+
+.ds-img{
+	width: 444rpx;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 60rpx;
+}
+
+.nos-hint{
+	color: #bebebe;
+	margin-bottom: 50rpx;
+}
+
+
+.white-btn{
+	background: #fff;
+	margin:0 75rpx;
+	border: 1px solid #3398ff;
+	color: #3398ff;
+}
+
+
+.s-item{
+	height: 230rpx;
+	padding: 0 30rpx;
+	border-bottom: 1px solid #e4e4e5;
+}
+
+.ys-box{
+	margin-bottom: 30rpx;
+}
+.ys-img{
+	width: 132rpx;
+	margin-right: 40rpx;
+}
+.s-info{
+
+}
+
+.s-name{
+	font-size: 34rpx;
+	margin-bottom: 30rpx;
+}
+
+.s-state-box{
+	align-items: center;
+}
+
+.ly-icon{
+	width: 28rpx;
+	margin-right: 10rpx;
+}
+
+.ylj{
+	color: #1caaec;
+}

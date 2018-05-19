@@ -1,0 +1,55 @@
+page{
+	background: #f0f0f0;
+}
+
+.user-box{
+	height: 280rpx;
+	background: #3398ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+
+
+.user-head{
+	width: 155rpx;
+	height: 155rpx;
+	border-radius: 50%;
+	margin-bottom: 30rpx;
+}
+
+
+.line-box{
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	padding: 0 30rpx;
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	position: relative;
+}
+
+.line-icon{
+	width: 34rpx;
+	margin-right: 30rpx;
+}
+
+.line-name{
+	flex: 1;
+}
+
+.right{
+	width: 30rpx;
+}
+
+.kf-btn{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	opacity: 0;
+}

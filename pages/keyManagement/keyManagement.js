@@ -5,7 +5,50 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    showSetName:false,
+    MiYueName:""
+  },
+
+  //同步密钥
+  tongBuMiYue:function(){
+    wx.showLoading({
+      mask:true,
+      title: '同步中',
+    })
+    setTimeout(()=>{
+      wx.showToast({
+        title:"同步成功"
+      })
+    },5000)
+  },
+
+  saveMiYueName:function(e){
+    let value = e.detail.value;
+    this.setData({
+      MiYueName:value,
+    })
+  },
+
+  //添加密钥
+  addMiYue:function(e){
+    this.setData({
+      showSetName:true,
+    })
+  },
+
+  //添加密钥下一步
+  addMiYueNext:function(e){
+    let MiYueName = this.data.MiYueName;
+    if (MiYueName.trim() == '' || MiYueName == undefined){
+      wx.showToast({
+        icon:"none",
+        title: '密钥名称为空',
+      })
+      return
+    }
+    wx.navigateTo({
+      url: '/pages/chooseKeyType/chooseKeyType',
+    })
   },
 
   /**

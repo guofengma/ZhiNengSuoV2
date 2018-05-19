@@ -4,25 +4,31 @@ const app = getApp()
 
 Page({
   data: {
-   lockName:"广州的家",
-   lockId:"23456723#ssfFFAVSD",
+    //是否登录
+    isLogin:false,
+    lockName:"广州的家",
+    lockId:"23456723#ssfFFAVSD",
    //菜单
    lockHandle:[
 	   {
 	   	name:"智能锁报警",
-	   	image:"/images/ld.png"
+	   	image:"/images/ld.png",
+      handle:"bjjl",
 	   },
 	   {
 	   	name:"授权临时密钥",
-	   	image:"/images/ws.png"
+	   	image:"/images/ws.png",
+       handle:"lsmy"
 	   },
 	   {
 	   	name:"智能锁授权",
-	   	image:"/images/sq.png"
+	   	image:"/images/sq.png",
+       handle:"znssq"
 	   },
 	   {
 	   	name:"开锁记录",
-	   	image:"/images/file.png"
+	   	image:"/images/file.png",
+       handle:"ksjl"
 	   }
    ],
    //数字键盘
@@ -42,11 +48,43 @@ Page({
    ]
   },
 
+  //跳转对应的锁操作
+  lockHandle:function(e){
+    let handle = e.currentTarget.dataset.handle;
+    if (handle == "bjjl"){
+      wx.navigateTo({
+        url: '/pages/baoJingJiLu/baoJingJiLu',
+      })
+    }
+    if(handle == 'znssq'){
+      wx.navigateTo({
+        url: '/pages/lockAccredit/lockAccredit',
+      })
+    }
+    if(handle == 'lsmy'){
+      wx.navigateTo({
+        url: '/pages/addTemporaryKey/addTemporaryKey',
+      })
+    }
+    if (handle == 'ksjl') {
+      wx.navigateTo({
+        url: '/pages/kaiSuoJiLu/kaiSuoJiLu',
+      })
+    }
+  },
+
   //跳转链接 登录注册
   toLink:function(e){
     let link = e.currentTarget.dataset.link;
     wx.navigateTo({
       url: link,
+    })
+  },
+
+  //跳转密钥管理
+  tokeyManagement:function(e){
+    wx.navigateTo({
+      url: '/pages/keyManagement/keyManagement',
     })
   },
 
@@ -93,6 +131,13 @@ Page({
   onLoad: function () {
     let that = this;
     that.initBlue().then(that.getBluetoothAdapterState).catch(that.initErr)
+  },
+
+  onShow:function(e){
+    let isLogin = wx.getStorageSync("isLogin");
+    this.setData({
+      isLogin: isLogin
+    })
   },
   
 })
