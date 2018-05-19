@@ -76,7 +76,6 @@ Page({
       },
       fail: function (res) {
         console.log("获取本机蓝牙适配器状态fail -->", res);
-        jeject(res)
       },
     })
   },
